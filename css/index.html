@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome</title>
+    <meta name="description" content="this is first web site " />
+    <meta name="keywords" content="Web development ,web design" />
+  </head>
+  <body>
+    <h1>Welcome to my website</h1>
+    <p>
+      Lorem, ipsum dolor<strong>
+        sit amet consectetur adipisicing elit.
+      </strong>
+      Eum illo <del>
+        reprehenderit amet temporibus nesciunt adipisci consequatur unde
+      </del>
+      voluptate<em>
+        quos ab voluptatum, voluptates a sint optio ullam, illum fuga
+      </em>
+      eligendi excepturi!
+      <hr>
+    </p>
+    <p>
+      <a href="https://google.com">Click for Google</a>
+    </p>
+   <p>
+    <a href="https://google.com" target="_blank">Click for Google</a>
+   </p>
+   <!-- Internal link -->
+   <p>
+     <a href="live_server.html">Live Server</a>
+   </p>
+   <!-- Local Image -->
+   <p>
+     <img src="images/sample.jpg" alt ="My Image">
+   </p>
+   <!-- Remote  Image -->
+  
+   <p>
+    <img src="https://www.google.com/search?q=nature+images&rlz=1C1YQLS_enIN869IN869&tbm=isch&source=iu&ictx=1&fir=wj-URc7tQbPYJM%253A%252CBa_eiczVaD9-zM%252C_&vet=1&usg=AI4_-kTWapQDqw1DoEXKEwQe9UaJTd0moQ&sa=X&ved=2ahUKEwii6K7VhqPlAhXLro8KHSGFBGMQ9QEwAXoECAcQMA#imgrc=wj-URc7tQbPYJM:" alt ="My Image">
+  </p>
+
+  <!-- List And Table -->
+  <p>
+    <ul style="list-style: square;">
+     <li>1</li>
+     <li>2</li>
+     <li>3</li>
+     <li>4</li>
+
+    </ul>
+  </p>
+  <!-- Ordered List -->
+  <!-- we can pass in type a,A, 1,i for roman and I -->
+  <p>
+    <ol type="1">
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    </ol>
+  </p>
+  <!-- Nested List -->
+ <ul style="list-style: square;">
+     <li>1</li>
+     <li>2<ul>
+         <li>sub item 1</li>
+         <li>sub item 2</li>
+       </ul>
+     </li>
+     <li>3</li>
+     <li>4</li>
+ </ul>
+  <!-- Tables -->
+  <p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Umesh </td>
+        <td>Shakya</td>
+        <td>Umesh@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Ajeet </td>
+        <td>Yadav</td>
+        <td>Ajeet@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Raj </td>
+        <td>Singh</td>
+        <td>Raj@gmail.com</td>
+      </tr>
+    </tbody>
+  </table>
+  </p>
+  <!-- Forms and Input -->
+  <form>
+    <div>
+      <label for ="Name">Name</label>
+      <input type='text' id="name" name="name">
+    </div>
+    <div>
+      <label for ="Email">Email</label>
+      <input type='text' id="email" name="email">
+    </div>
+    <label>Message</label>
+    <div>
+      <textarea name="textarea" id="message" cols="50" rows="5"></textarea>
+    </div>
+    <div>
+      <label for="sex">Sex</label>
+      <select name='gender' id ="gender">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+    <div>
+      <label>Membership</label>
+      <input type="radio" name="membership" id="membership" value="simple">simple
+      <input type="radio" name="membership" id="membership" value="simple">Standerd
+      <input type="radio" name="membership" id="membership" value="simple">Super
+    </div>
+    <div>
+        <label>I like.. </label>
+        <input type="checkbox" name="likes" id="likes" value="Car">Car
+        <input type="checkbox" name="likes" id="likes" value="Bike">Bike
+        <input type="checkbox" name="likes" id="likes" value="Boat">Boat
+      </div>
+      <input type="submit"/>
+      
+  </form>
+  </body>
+</html>
