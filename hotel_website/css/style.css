@@ -24,13 +24,31 @@
   color: white;
   border: none;
   cursor: pointer;
-  margin-top: 40px;
+  margin-top: 20px;
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
 }
 .btn:hover {
   background: #f7c08a;
   color: #333;
 }
-
+.bg-dark {
+  background: #333;
+  color: white;
+}
+.bg-light {
+  background: white;
+  color: #333;
+}
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+.clr {
+  clear: both;
+}
 /* main styling */
 html,
 body {
@@ -41,6 +59,16 @@ body {
 a {
   color: #333;
   text-decoration: none;
+}
+
+.py-1 {
+  padding: 10, 0;
+}
+.py-2 {
+  padding: 20px, 0;
+}
+.py-3 {
+  padding: 110px, 0;
 }
 
 h1,
@@ -92,3 +120,119 @@ h3 {
   font-size: 60px;
   line-height: 1.2em;
 }
+/* home info */
+#home-info {
+  height: 400px;
+}
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  background: url("../img/photo-1.jpg") no-repeat center center/cover;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  text-align: center;
+  overflow: hidden;
+  padding: 50px 30px;
+  height: 100%;
+}
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+/* Fetures */
+.box {
+  float: left;
+  width: 33%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+
+/* 
+about infoi
+
+*/
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img {
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius: 50%;
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#testimonials {
+  height: 600px;
+  background: url("../img/test-bg.jpg") no-repeat center center/cover;
+  padding-top: 40px;
+  opacity: 0.9;
+  padding-top: 100px;
+}
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#testimonials .tesimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+#testimonials .tesimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+/* 
+Context Form
+*/
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px, #ddd, solid;
+}
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+/* main foter */
+footer {
+  text-align: center;
+  background: #444;
+  padding: 20px;
+  color: wheat;
+  margin-top: 10px;
+}
+/* 
+
+*/
